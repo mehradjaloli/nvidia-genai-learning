@@ -7,22 +7,22 @@ Each project is self-contained with its own README, code, and documented use cas
 
 ## Learning Roadmap
 
-### Phase 1 — NVIDIA NIM (Inference Microservices)
+### Phase 1 — NVIDIA NIM (Inference Microservices) ✅ Complete
 > Run optimized AI models via API — no GPU required, OpenAI-compatible interface.
 
 | Project | What it covers | Status |
 |---|---|---|
 | `project1-nim-llm-chat` | LLM chat with Llama 3.1 via NIM cloud API | ✅ Done |
-| `project2-nim-rag-pipeline` | RAG pipeline using NIM embeddings + vector DB | ✅ Done |
+| `project2-nim-rag-pipeline` | RAG pipeline using NIM embeddings + FAISS vector store | ✅ Done |
 | `project3-nim-vision-language` | Visual Q&A and multi-turn chat with a VLM | ✅ Done |
+| `project4-nim-multimodal-rag` | Multimodal RAG — documents + images + multi-image comparison | ✅ Done |
 
-### Phase 2 — NeMo Guardrails
+### Phase 2 — NeMo Guardrails 🔄 In Progress
 > Add programmable safety, topic control, and jailbreak protection to LLM apps.
 
 | Project | What it covers | Status |
 |---|---|---|
-| `project4-multimodal-rag` | Multimodal RAG — documents + images + multi-image comparison | ✅ Done |
-| `project5-nemo-guardrails` | Chat app with topic guardrails and jailbreak protection | ⏳ Upcoming |
+| `project5-nemo-guardrails` | Chat app with topic guardrails and jailbreak protection | 🔄 Next |
 
 ### Phase 3 — NeMo Framework (Training & Fine-tuning)
 > Train and customize LLMs and speech models at scale.
@@ -57,7 +57,7 @@ Each project folder has its own README and dependencies. For all NIM-based proje
 ## Key Concepts Covered
 
 - **NIM**: Containerized inference microservices — deploy anywhere, same API
-- **NeMo Guardrails**: Programmable safety rails for production LLM apps  
+- **NeMo Guardrails**: Programmable safety rails for production LLM apps
 - **NeMo Framework**: End-to-end LLM and speech model training/fine-tuning
 - **TensorRT-LLM**: NVIDIA's inference optimization engine (used under the hood by NIM)
 - **Triton**: Production model serving framework
