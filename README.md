@@ -13,31 +13,32 @@ Each project is self-contained with its own README, code, and documented use cas
 | Project | What it covers | Status |
 |---|---|---|
 | `project1-nim-llm-chat` | LLM chat with Llama 3.1 via NIM cloud API | ✅ Done |
-| `project2-nim-rag-pipeline` | RAG pipeline using NIM embeddings + vector DB | 🔄 In progress |
-| `project3-nim-vision` | Multimodal app with a vision-language model | ⏳ Upcoming |
+| `project2-nim-rag-pipeline` | RAG pipeline using NIM embeddings + vector DB | ✅ Done |
+| `project3-nim-vision-language` | Visual Q&A and multi-turn chat with a VLM | ✅ Done |
 
 ### Phase 2 — NeMo Guardrails
 > Add programmable safety, topic control, and jailbreak protection to LLM apps.
 
 | Project | What it covers | Status |
 |---|---|---|
-| `project4-nemo-guardrails` | Chat app with topic guardrails and jailbreak protection | ⏳ Upcoming |
+| `project4-multimodal-rag` | Multimodal RAG — documents + images + multi-image comparison | ✅ Done |
+| `project5-nemo-guardrails` | Chat app with topic guardrails and jailbreak protection | ⏳ Upcoming |
 
 ### Phase 3 — NeMo Framework (Training & Fine-tuning)
 > Train and customize LLMs and speech models at scale.
 
 | Project | What it covers | Status |
 |---|---|---|
-| `project5-nemo-lora-finetuning` | Fine-tune a small LLM with LoRA/PEFT | ⏳ Upcoming |
-| `project6-nemo-speech-pipeline` | ASR + TTS voice pipeline using NeMo | ⏳ Upcoming |
+| `project6-nemo-lora-finetuning` | Fine-tune a small LLM with LoRA/PEFT | ⏳ Upcoming |
+| `project7-nemo-speech-pipeline` | ASR + TTS voice pipeline using NeMo | ⏳ Upcoming |
 
 ### Phase 4 — Ecosystem Depth
 > TensorRT-LLM, Triton Inference Server, RAPIDS GPU-accelerated data science.
 
 | Project | What it covers | Status |
 |---|---|---|
-| `project7-tensorrt-llm-concepts` | TensorRT-LLM optimization concepts and benchmarking | ⏳ Upcoming |
-| `project8-triton-inference-server` | Serving models with Triton Inference Server | ⏳ Upcoming |
+| `project8-tensorrt-llm-concepts` | TensorRT-LLM optimization concepts and benchmarking | ⏳ Upcoming |
+| `project9-triton-inference-server` | Serving models with Triton Inference Server | ⏳ Upcoming |
 
 ---
 
